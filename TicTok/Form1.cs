@@ -32,12 +32,12 @@ namespace TicTok
         private void button1_Click(object sender, EventArgs e)
         {
             tea = tea + 1;
-           price = price + tea;
+           tprice = tprice + tea;
         }
         private void button2_Click(object sender, EventArgs e)
         {
             coffee = coffee + 1;
-            price1 = price1 + coffee;
+            cprice = cprice + coffee;
         }
 
         private void Form1_Load(object sender, EventArgs e)
