@@ -39,7 +39,8 @@ namespace TicTok
         }
         private void button2_Click(object sender, EventArgs e)
         {
-           
+           cshake= cshake + 1;
+            cprice = cprice + cshake;
         }
         private void button4_Click(object sender, EventArgs e)
         {
