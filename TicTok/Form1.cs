@@ -14,10 +14,7 @@ namespace TicTok
             InitializeComponent();
         }
 
-        private void button4_Click(object sender, EventArgs e)
-        {
-
-        }
+       
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
@@ -42,7 +39,11 @@ namespace TicTok
         }
         private void button2_Click(object sender, EventArgs e)
         {
-           sshake= sshake + 1;
+           
+        }
+        private void button4_Click(object sender, EventArgs e)
+        {
+            sshake = sshake + 1;
             sprice = sprice + sshake;
         }
 
