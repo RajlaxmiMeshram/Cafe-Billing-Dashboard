@@ -42,7 +42,8 @@ namespace TicTok
         }
         private void button2_Click(object sender, EventArgs e)
         {
-           
+           sshake= sshake + 1;
+            sprice = sprice + sshake;
         }
 
         private void Form1_Load(object sender, EventArgs e)
