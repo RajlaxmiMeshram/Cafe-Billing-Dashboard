@@ -33,7 +33,7 @@ namespace TicTok
         private void button1_Click(object sender, EventArgs e)
         {
              
-        
+   
 
             tea = tea + 1;
            tprice = 10 * tea;
@@ -95,6 +95,10 @@ namespace TicTok
 
             
 
+        }
+        private void button5_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Total Rs: " + this.totalamount + " Successfully Printed!");
         }
 
 
