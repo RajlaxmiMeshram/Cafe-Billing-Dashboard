@@ -5,7 +5,8 @@ namespace TicTok
     
     public partial class Form1 : Form
     {
-        public int tea, coffee,sshake,cshake=0;
+        public int tea, coffee,sshake,cshake=0,tprice,sprice,coprice, cprice;
+        string totalamount = null;
 
        
         public Form1()
@@ -32,7 +33,7 @@ namespace TicTok
         private void button1_Click(object sender, EventArgs e)
         {
              
-         int tprice=0;
+        
 
             tea = tea + 1;
            tprice = 10 * tea;
@@ -43,7 +44,6 @@ namespace TicTok
         private void button2_Click(object sender, EventArgs e)
         {
 
-            int coprice;
                 int coprice1=0;
 
             
@@ -56,20 +56,29 @@ namespace TicTok
         }
         private void button3_Click(object sender, EventArgs e)
         {
-            int cprice;
+            
         
         coffee = coffee+1;
             cprice = 50 *coffee;
             richTextBox1.AppendText("Coffee   " + coffee.ToString() + "   " + cprice.ToString() + "\n");
         }
+
+        
+
         private void button4_Click(object sender, EventArgs e)
         {
-            int sprice;
+            
         sshake = sshake + 1;
             sprice = 180 * sshake;
             richTextBox1.AppendText("Stawberry Shake   " + sshake.ToString() + "   " + sprice.ToString() + "\n");
         }
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
 
+            int sum = this.cprice + this.coprice + this.sprice + this.tprice;
+            totalamount = sum.ToString();
+            textBox1.Text = totalamount;
+        }
         private void Form1_Load(object sender, EventArgs e)
         {
 
