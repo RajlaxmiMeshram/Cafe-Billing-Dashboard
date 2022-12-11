@@ -34,11 +34,12 @@
             this.button4 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(68, 122);
+            this.button1.Location = new System.Drawing.Point(68, 163);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(138, 74);
             this.button1.TabIndex = 0;
@@ -48,7 +49,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(233, 122);
+            this.button2.Location = new System.Drawing.Point(233, 163);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(138, 74);
             this.button2.TabIndex = 1;
@@ -58,7 +59,7 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(68, 224);
+            this.button3.Location = new System.Drawing.Point(68, 262);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(138, 74);
             this.button3.TabIndex = 2;
@@ -68,7 +69,7 @@
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(233, 224);
+            this.button4.Location = new System.Drawing.Point(233, 262);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(138, 74);
             this.button4.TabIndex = 3;
@@ -80,7 +81,7 @@
             // 
             this.button5.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.button5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button5.Location = new System.Drawing.Point(665, 391);
+            this.button5.Location = new System.Drawing.Point(541, 394);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(111, 43);
             this.button5.TabIndex = 5;
@@ -96,11 +97,23 @@
             this.richTextBox1.Text = "";
             this.richTextBox1.TextChanged += new System.EventHandler(this.richTextBox1_TextChanged);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Stencil", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label1.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.label1.Location = new System.Drawing.Point(97, 104);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(245, 44);
+            this.label1.TabIndex = 7;
+            this.label1.Text = "cafe house";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(832, 479);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
@@ -111,6 +124,7 @@
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -122,5 +136,6 @@
         private Button button4;
         private Button button5;
         private RichTextBox richTextBox1;
+        private Label label1;
     }
 }
