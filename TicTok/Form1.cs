@@ -1,5 +1,7 @@
+
 namespace TicTok
 {
+
     
     public partial class Form1 : Form
     {
@@ -11,7 +13,10 @@ namespace TicTok
 
         public Form1()
         {
+
+
             InitializeComponent();
+
         }
 
        
@@ -26,11 +31,6 @@ namespace TicTok
 
         }
 
-        private void button3_Click(object sender, EventArgs e)
-        {
-            coffee = coffee + 1;
-            cprice = cprice + coffee;
-        }
 
         private void button1_Click(object sender, EventArgs e)
         {
@@ -42,6 +42,11 @@ namespace TicTok
         {
            cshake= cshake + 1;
             cprice = cprice + cshake;
+        }
+        private void button3_Click(object sender, EventArgs e)
+        {
+            coffee = coffee + 1;
+            cprice = cprice + coffee;
         }
         private void button4_Click(object sender, EventArgs e)
         {
@@ -56,6 +61,7 @@ namespace TicTok
 
         private void richTextBox1_TextChanged(object sender, EventArgs e)
         {
+
 
         }
 
