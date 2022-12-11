@@ -36,6 +36,7 @@ namespace TicTok
         {
             tea = tea + 1;
            tprice = tprice + tea;
+            richTextBox1.AppendText("Tea    "+tea.ToString()+"   "+tprice.ToString());
         }
 
         private void button2_Click(object sender, EventArgs e)
