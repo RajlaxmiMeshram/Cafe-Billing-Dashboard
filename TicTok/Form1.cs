@@ -52,7 +52,7 @@ namespace TicTok
             coprice = 150 * cshake;
             coprice1 += coprice;
 
-            richTextBox1.AppendText("Chocolate Shake\t \t " + cshake.ToString() + "   " + coprice.ToString() + "\n");
+            richTextBox1.AppendText("Chocolate Shake\t \t \t" + cshake.ToString() + "   " + coprice.ToString() + "\n");
         }
         private void button3_Click(object sender, EventArgs e)
         {
@@ -70,7 +70,7 @@ namespace TicTok
             
         sshake = sshake + 1;
             sprice = 180 * sshake;
-            richTextBox1.AppendText("Stawberry Shake \t \t " + sshake.ToString() + "   " + sprice.ToString() + "\n");
+            richTextBox1.AppendText("Stawberry Shake \t \t\t " + sshake.ToString() + "   " + sprice.ToString() + "\n");
         }
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
