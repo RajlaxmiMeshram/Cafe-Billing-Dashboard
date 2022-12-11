@@ -37,6 +37,7 @@ namespace TicTok
             tea = tea + 1;
            tprice = tprice + tea;
         }
+
         private void button2_Click(object sender, EventArgs e)
         {
            cshake= cshake + 1;
@@ -53,6 +54,11 @@ namespace TicTok
 
         }
 
-       
+        private void richTextBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+
     }
 }
