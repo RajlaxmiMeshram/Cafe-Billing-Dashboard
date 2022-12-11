@@ -6,11 +6,8 @@ namespace TicTok
     public partial class Form1 : Form
     {
         public int tea, coffee,sshake,cshake=0;
-        public int cprice;
-        public int tprice;
-        public int sprice;
-        public int coprice;
 
+       
         public Form1()
         {
 
@@ -34,7 +31,10 @@ namespace TicTok
 
         private void button1_Click(object sender, EventArgs e)
         {
-            tea = tea+1
+             
+         int tprice=0;
+
+            tea = tea + 1;
            tprice = 10 * tea;
             richTextBox1.AppendText("Tea    "+tea.ToString()+"   "+tprice.ToString()+ "\n");
        
@@ -42,20 +42,31 @@ namespace TicTok
 
         private void button2_Click(object sender, EventArgs e)
         {
-           cshake= cshake+1;
-            coprice = 150 + cshake;
+
+            int coprice;
+                int coprice1=0;
+
+            
+       
+        cshake= cshake+1;
+            coprice = 150 * cshake;
+            coprice1 += coprice;
+
             richTextBox1.AppendText("Chocolate Shake    " + cshake.ToString() + "   " + coprice.ToString() + "\n");
         }
         private void button3_Click(object sender, EventArgs e)
         {
-            coffee = coffee+1;
-            cprice = 50 + coffee;
+            int cprice;
+        
+        coffee = coffee+1;
+            cprice = 50 *coffee;
             richTextBox1.AppendText("Coffee   " + coffee.ToString() + "   " + cprice.ToString() + "\n");
         }
         private void button4_Click(object sender, EventArgs e)
         {
-            sshake = sshake + 1;
-            sprice = 180 + sshake;
+            int sprice;
+        sshake = sshake + 1;
+            sprice = 180 * sshake;
             richTextBox1.AppendText("Stawberry Shake   " + sshake.ToString() + "   " + sprice.ToString() + "\n");
         }
 
@@ -66,7 +77,14 @@ namespace TicTok
 
         private void richTextBox1_TextChanged(object sender, EventArgs e)
         {
+           // richTextBox1.AppendText("-------------------------------------------------------------" + Environment.NewLine);
+         //  richTextBox1.AppendText("\t\t" + "Cafe House" + Environment.NewLine);
+           // richTextBox1.AppendText("-------------------------------------------------------------" + Environment.NewLine);
+           // richTextBox1.AppendText("Tea \t\t\t\t" + Environment.NewLine);
 
+
+
+            
 
         }
 
