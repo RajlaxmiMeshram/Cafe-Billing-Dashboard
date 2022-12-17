@@ -58,7 +58,7 @@ namespace TicTok
         {
             
         
-        coffee = coffee ++;
+        coffee = coffee +1;
             cprice = 50 *coffee;
             richTextBox1.AppendText("Coffee \t\t\t\t  " + coffee.ToString() + "   " + cprice.ToString() + "\n");
         }
