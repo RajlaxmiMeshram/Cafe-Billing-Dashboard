@@ -35,7 +35,7 @@ namespace TicTok
              
    
 
-            tea = tea +1;
+            tea = tea ++;
            tprice = 10 * tea;
             richTextBox1.AppendText("Tea\t\t\t\t    "+tea.ToString()+"   "+tprice.ToString()+ "\n");
        
@@ -48,7 +48,7 @@ namespace TicTok
 
             
        
-        cshake= cshake+1;
+        cshake= cshake ++;
             coprice = 150 * cshake;
             coprice1 += coprice;
 
@@ -58,7 +58,7 @@ namespace TicTok
         {
             
         
-        coffee = coffee+1;
+        coffee = coffee ++;
             cprice = 50 *coffee;
             richTextBox1.AppendText("Coffee \t\t\t\t  " + coffee.ToString() + "   " + cprice.ToString() + "\n");
         }
