@@ -68,7 +68,7 @@ namespace TicTok
         private void button4_Click(object sender, EventArgs e)
         {
             
-        sshake = sshake ++;
+        sshake = sshake +1;
             sprice = 180 * sshake;
             richTextBox1.AppendText("Stawberry Shake \t \t\t " + sshake.ToString() + "   " + sprice.ToString() + "\n");
         }
