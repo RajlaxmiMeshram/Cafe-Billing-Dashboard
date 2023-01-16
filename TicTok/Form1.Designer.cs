@@ -83,9 +83,9 @@
             // 
             this.button5.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.button5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button5.Location = new System.Drawing.Point(541, 394);
+            this.button5.Location = new System.Drawing.Point(687, 391);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(111, 43);
+            this.button5.Size = new System.Drawing.Size(89, 34);
             this.button5.TabIndex = 5;
             this.button5.Text = "Print";
             this.button5.UseVisualStyleBackColor = false;
@@ -93,9 +93,9 @@
             // 
             // richTextBox1
             // 
-            this.richTextBox1.Location = new System.Drawing.Point(408, 82);
+            this.richTextBox1.Location = new System.Drawing.Point(399, 71);
             this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(368, 215);
+            this.richTextBox1.Size = new System.Drawing.Size(392, 304);
             this.richTextBox1.TabIndex = 6;
             this.richTextBox1.Text = "";
             this.richTextBox1.TextChanged += new System.EventHandler(this.richTextBox1_TextChanged);
@@ -114,7 +114,7 @@
             // textBox1
             // 
             this.textBox1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox1.Location = new System.Drawing.Point(566, 309);
+            this.textBox1.Location = new System.Drawing.Point(463, 391);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(210, 34);
             this.textBox1.TabIndex = 8;
@@ -124,11 +124,12 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label2.Location = new System.Drawing.Point(502, 315);
+            this.label2.Location = new System.Drawing.Point(399, 397);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(58, 28);
             this.label2.TabIndex = 10;
             this.label2.Text = "Total:";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // Form1
             // 
