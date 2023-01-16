@@ -49,9 +49,7 @@ namespace TicTok
         private void button2_Click(object sender, EventArgs e)
         {
 
-                int coprice1=0;
-
-            
+                int coprice1=0;   
        
         cshake= cshake +1;
             coprice = 150 * cshake;
@@ -91,12 +89,10 @@ namespace TicTok
 
         private void richTextBox1_TextChanged(object sender, EventArgs e)
         {
-           // richTextBox1.AppendText("-------------------------------------------------------------" + Environment.NewLine);
-         //  richTextBox1.AppendText("\t\t" + "Cafe House" + Environment.NewLine);
-           // richTextBox1.AppendText("-------------------------------------------------------------" + Environment.NewLine);
-           // richTextBox1.AppendText("Tea \t\t\t\t" + Environment.NewLine);
-
-            
+           richTextBox1.AppendText("-------------------------------------------------------------" + Environment.NewLine);
+          richTextBox1.AppendText("\t\t" + "Cafe House" + Environment.NewLine);
+            richTextBox1.AppendText("-------------------------------------------------------------" + Environment.NewLine);
+              
 
         }
         private void button5_Click(object sender, EventArgs e)
