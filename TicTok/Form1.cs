@@ -89,9 +89,9 @@ namespace TicTok
 
         private void richTextBox1_TextChanged(object sender, EventArgs e)
         {
-           richTextBox1.AppendText("-------------------------------------------------------------" + Environment.NewLine);
-          richTextBox1.AppendText("\t\t" + "Cafe House" + Environment.NewLine);
-            richTextBox1.AppendText("-------------------------------------------------------------" + Environment.NewLine);
+           //richTextBox1.AppendText("-------------------------------------------------------------" + Environment.NewLine);
+         // richTextBox1.AppendText("\t\t" + "Cafe House" + Environment.NewLine);
+          //  richTextBox1.AppendText("-------------------------------------------------------------" + Environment.NewLine);
               
 
         }
